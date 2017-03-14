@@ -1,0 +1,17 @@
+{
+  "name": "__tmp-test",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://artifactory.in.here.com/artifactory/api/npm/here-node-local"
+  },
+  "repository": "frederickfogerty/np",
+  "scripts": {
+    "preversion": "echo prepublish was executed && touch prepublished.txt",
+    "publish": "ynp"
+  },
+  "devDependencies": {
+    "ynp": "^2.12.1"
+  }
+}
